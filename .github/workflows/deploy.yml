@@ -23,6 +23,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
+          registry-url: https://registry.npmjs.org
       - run: npm ci
       # base 自动设为 /<仓库名>/，无需手改
       - run: npm run build
