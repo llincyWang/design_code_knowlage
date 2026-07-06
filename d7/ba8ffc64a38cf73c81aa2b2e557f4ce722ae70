@@ -1,0 +1,60 @@
+.github/workflows/deploy.yml
+  s_d6fba3f0f79828::t_453383cc93a9a8 26 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a4b4eb7e0cf1596f1e6bccd","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Single":26}]}]}
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "d7ba8ffc64a38cf73c81aa2b2e557f4ce722ae70",
+  "prompts": {},
+  "sessions": {
+    "s_d6fba3f0f79828": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a4668aae0cf1596f1e6af47",
+        "model": "openrouter-3o__max"
+      },
+      "human_author": "wanglinlin.929 <wanglinlin.929@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {
+    ".github/workflows/deploy.yml": [
+      {
+        "hash": "s_d6fba3f0f79828::t_453383cc93a9a8",
+        "line_ranges": [
+          {
+            "Single": 26
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a4b4eb7e0cf1596f1e6bccd",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Single": 26
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remote_transcripts": {
+    "s_d6fba3f0f79828": {
+      "tool": "trae",
+      "conversation_id": "6a4668aae0cf1596f1e6af47",
+      "session_id": "6a4668aae0cf1596f1e6af47",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_d6fba3f0f79828::t_453383cc93a9a8": {
+      "tool": "trae",
+      "conversation_id": "6a4668aae0cf1596f1e6af47",
+      "session_id": "6a4668aae0cf1596f1e6af47",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    }
+  }
+}
