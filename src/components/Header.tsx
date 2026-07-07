@@ -7,6 +7,7 @@ const navItems = [
   { label: "黑话翻译所", href: "#lab" },
   { label: "前端思维", href: "#map" },
   { label: "交付物", href: "#delivery" },
+  { label: "翻车现场", href: "#crash" },
   { label: "AI Coding", href: "#ai" },
 ];
 
